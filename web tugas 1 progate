@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Progate</title>
+      <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+<!--Tambahkan bagian extra wrapper di sini-->
+    <div class="extra-wrapper">
+      <h1>CORONA VIRUS DISEASE</h1>
+      <div class="container-left">
+        <div class="heading">
+          <h2>Apa Itu COVID-19</h2>
+          <p>Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernafasan. Penyakit karena inveksi ini disebut COVID-19. Virus Corona bisa menyebabkan gangguuan ringan pada sitem pernapasan, infeksi paru-paru yang berat, hingga kematian.</p>
+        </div>
+        <div class="heading">
+          <h2 class="selected">Bagaimana Cara Covid-19 Menginfeksi?</h2>
+          <p >Awalnya penyakit ini diduga berasal dari hewan lalu menular melalui manusia. Seiring waktu, penularan terjadi antarmanusia lewat percikan air liur yang terbawa lewat udara saat penderita batuk atau bersin.</p>
+          <p>Selain cara di atas bisa juga akibat kontak langsung dengan penderita ataupun menyentuh mulut, hidung dan mata usai menyentuh benda yang terpapar Covid-19. Hal lain yang berlu di ketahui bahwa partikel virus yang menepel di benda tidak dapat bertahan lama, namun pengunan masker dan kebersihan tubuh harus tetap dijaga sebagai proses penjegahan. </p>
+        </div>
+      </div>
+      <div class="container-right">
+        <h2> Gejala Yang Ditibulkan</h2>
+        <div class="heading">
+          <div class="headings-icon">
+            <div class="heading-icon">
+              <img src="https://github.com/jla55/E19-DTS20/blob/master/img/batuk-dan-nyeri.png?raw=true">
+              <p>Batuk dan nyeri tenggorokan</p>
+            </div>
+            <div class="heading-icon">
+              <img src="https://github.com/jla55/E19-DTS20/blob/master/img/demam.png?raw=true">
+              <p>Demam suhu di atas 38 Celcius</p>
+            </div>
+            <div class="heading-icon">
+              <img src="https://github.com/jla55/E19-DTS20/blob/master/img/sesak-napas.png?raw=true">
+              <p>Sesak nafas</p>
+            </div>
+          </div>
+        </div>
+        <p class="selection">Awalnya penyakit ini diduga berasal dari hewan lalu menular ke manusia. Seiring berjalanya waktu diketahui penularan terjadi antara manusia lewat percikan air liur yang terbawa udara saat penderita batuk atau bersin. Bisa juga akibat kontak langsung dengan penderita atau menyentuh mata, mulut, atau hidung usai menyentuh benda yang terpapar virus.</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+ /* Tambahkan bagian extra wrapper di sini */
+  * {
+  box-sizing: border-box;
+}
+
+.extra-wrapper {
+  font-family: "Lucida Grande";
+  font-size: 15px;
+  width: 1172px;
+  height: 350px;
+  padding: 30px;
+}
+
+.extra-wrapper h1 {
+  font-size: 25px;
+  font-family: georgia;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.container-left {
+  width: 650;
+  height: 350;
+  float: left;
+  padding: 10px;
+}
+
+.container-left p {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.selected {
+  padding-top: 20px;
+}
+
+.heading h2 {
+  font-size: 20;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  color: #2b5995;
+}
+
+.container-right {
+  width: 435;
+  height: 350;
+  padding-top: 20px;
+  float: right;
+  text-align: center;
+  background-color: #2b5995;
+  border-radius: 7px;
+  color: white;
+}
+
+.heading-icon {
+  float: right;
+  width: 145px;
+  height: 150px;
+}
+.heading-icon img {
+  height: 60px;
+  width: 60px;
+  margin: 10px 0;
+}
+
+.selection {
+  padding: 40px;
+}
